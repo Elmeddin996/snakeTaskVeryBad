@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+width: 80%;
+height: 100vh;
+margin: 0 auto;
+background-color: #929090;
+align-items: center;
+justify-content: center;
+display: flex;
+
+.snakeArena{
+    background-color: black;
+    width: 50%;
+    height: 60%;
+    position: relative;
+
+    #snake{
+        background-color: yellow;
+        position: absolute;
+        width: 2%;
+        height: 2%;
+    }
+}
+
+}
